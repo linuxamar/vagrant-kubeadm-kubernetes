@@ -18,12 +18,12 @@ network:
   service_cidr: 172.17.1.0/18
 nodes:
   control:
-    cpu: 2
-    memory: 4096
+    cpu: 6
+    memory: 12288
   workers:
     count: 2
-    cpu: 1
-    memory: 2048
+    cpu: 2
+    memory: 4096
 # Mount additional shared folders from the host into each virtual machine.
 # Note that the project directory is automatically mounted at /vagrant.
 # shared_folders:
