@@ -22,7 +22,7 @@ nodes:
     memory: 12288
   workers:
     count: 2
-    cpu: 2
+    cpu: 4
     memory: 4096
 # Mount additional shared folders from the host into each virtual machine.
 # Note that the project directory is automatically mounted at /vagrant.
